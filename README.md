@@ -3,6 +3,8 @@
 This repository is to reproduce a forward to bug found in Azure Service Bus on premium tier.
 (Requires .net 471)
 
+[![Build status](https://ci.appveyor.com/api/projects/status/eah50x9w9rp08aj3/branch/master?svg=true)](https://ci.appveyor.com/project/CaringDev/azureservicebusforwardtobugreproduction/branch/master)
+
 ## How to Setup the Namespace
 
 1. create a new namespace with 1 Message Unit and Premium tier
