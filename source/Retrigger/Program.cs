@@ -32,7 +32,7 @@ namespace Retrigger
                 return;
             }
 
-            var (source, error) = SourceProviderFactory.GetSourceProvider(configuration, logger);
+            var (source, error) = SourceProviderFactory.GetSourceProvider();
             if (!string.IsNullOrEmpty(error)) {
                 Console.WriteLine(error);
                 return;
