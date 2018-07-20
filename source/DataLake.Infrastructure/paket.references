@@ -1,0 +1,4 @@
+﻿Microsoft.CodeAnalysis.FxCopAnalyzers
+StyleCop.Analyzers
+WindowsAzure.ServiceBus
+WindowsAzure.Storage

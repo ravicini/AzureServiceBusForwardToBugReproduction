@@ -1,0 +1,58 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{ACC658DB-F77D-44D1-B430-F7F31595EE6C}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+		paket.lock = paket.lock
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_SolutionItems", "_SolutionItems", "{2F0E6FC9-2451-43D9-A048-5AF1943FA303}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		..\.gitattributes = ..\.gitattributes
+		..\.gitignore = ..\.gitignore
+		build.ps1 = build.ps1
+		DataLake.DataLogistics.sln.DotSettings = DataLake.DataLogistics.sln.DotSettings
+		DataLake.ruleset = DataLake.ruleset
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLogistics.Model", "DataLogistics.Model\DataLogistics.Model.csproj", "{7547EDE4-223B-4D6E-9A53-2DCF69144869}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DeveloperTools", "DeveloperTools", "{717B2516-27A3-47FE-8704-CF4F687F8545}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLake.Infrastructure", "DataLake.Infrastructure\DataLake.Infrastructure.csproj", "{D9E9429C-AEDA-4765-B5A7-833FA40FCA5A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Retrigger", "Retrigger\Retrigger.csproj", "{8A7CF62C-2E36-4AD1-B2B5-EA1CFF56386A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7547EDE4-223B-4D6E-9A53-2DCF69144869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7547EDE4-223B-4D6E-9A53-2DCF69144869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7547EDE4-223B-4D6E-9A53-2DCF69144869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7547EDE4-223B-4D6E-9A53-2DCF69144869}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9E9429C-AEDA-4765-B5A7-833FA40FCA5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9E9429C-AEDA-4765-B5A7-833FA40FCA5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9E9429C-AEDA-4765-B5A7-833FA40FCA5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9E9429C-AEDA-4765-B5A7-833FA40FCA5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A7CF62C-2E36-4AD1-B2B5-EA1CFF56386A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A7CF62C-2E36-4AD1-B2B5-EA1CFF56386A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A7CF62C-2E36-4AD1-B2B5-EA1CFF56386A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A7CF62C-2E36-4AD1-B2B5-EA1CFF56386A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8A7CF62C-2E36-4AD1-B2B5-EA1CFF56386A} = {717B2516-27A3-47FE-8704-CF4F687F8545}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {711148E0-122C-41B8-BC5A-9631F3492313}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+bin/
+obj/
+paket-files/
+TestResults/
+
+.build/
+.tmp/
+.vs/
+.vscode/
+
+*.user

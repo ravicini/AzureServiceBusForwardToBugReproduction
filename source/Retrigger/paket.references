@@ -1,0 +1,6 @@
+﻿Microsoft.Azure.WebJobs.ServiceBus
+Microsoft.CodeAnalysis.FxCopAnalyzers
+Microsoft.Extensions.Configuration.CommandLine
+Microsoft.Extensions.Configuration.Json
+NLog
+StyleCop.Analyzers

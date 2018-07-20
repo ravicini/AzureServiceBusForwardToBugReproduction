@@ -1,0 +1,14 @@
+﻿version 5.174.2
+
+source https://api.nuget.org/v3/index.json
+
+framework: net471
+storage: none
+redirects: on
+
+nuget Microsoft.Azure.WebJobs.ServiceBus
+nuget Microsoft.CodeAnalysis.FxCopAnalyzers copy_local: true
+nuget Microsoft.Extensions.Configuration.CommandLine
+nuget Microsoft.Extensions.Configuration.Json
+nuget NLog
+nuget StyleCop.Analyzers >= 1.1.0 beta copy_local: true
